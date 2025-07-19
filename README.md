@@ -7,7 +7,7 @@ For more information about the project, including the availability of grants and
 ## zkVM Track
 
 The zkVM track aims to formally verify the zkVM constraints, developing the following to achieve this.
-- A Lean backend for [Sail](https://github.com/rems-project/sail), a language for defining ISAs, including the [formal specification of the RISC-V architecture](https://github.com/riscv/sail-riscv).
+- A Lean backend for [Sail](https://github.com/rems-project/sail), a language for defining ISAs, including the [formal specification of the RISC-V architecture](https://github.com/riscv/sail-riscv) -- Rocq, Isabelle, and HOL4 backends already exist in addition to this.
   This backend now exists, and the RISC-V specification can be extracted into Lean (see [here](https://github.com/opencompl/sail-riscv-lean-executable) and [here](https://github.com/opencompl/sail-riscv-lean)), with more prolishing and improvements expected.
   (See also this hand-written rewrite of the Sail RISC-V specification into pure bit vector only operations.)
   RISC-V are expected to be verified against a reliable RISC-V specification this way.
